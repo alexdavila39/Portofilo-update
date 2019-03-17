@@ -5,61 +5,160 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Alex Davila's Portfolio</title>
-    <!-- Compiled and minified CSS -->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <!-- Compiled and minified JavaScript -->
-    <script src="https://www.gstatic.com/firebasejs/5.7.3/firebase.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Catamaran|Cormorant+Garamond" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/main.css" type="text/css">
+    <title>Document</title>
 </head>
 
 <body>
-    <section>>
-    <div class="canvas">
-    <canvas id="canvas" width="1440" height="468" style="width: 1440px; height: 468px;"></canvas>
-    </div>
-    </section>
+    <header>
+        <a  href="index.html" class="header-brand">Alex</a>
         <nav>
-        <div class="nav-wrapper">
-            <a href="index.html" class="brand-logo">Alex Davila</a>
-            <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <ul>
+                <li><a href=portfolio.html>Portfolio</a></li>
                 <li><a href="about.html">About Me</a></li>
-                <li><a href="portfolio.html">Portfolio</a></li>
-                <li><a href="contact.html">contact</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        
+            <section class="index-banner">
+                <div class="center-vertical">
+                    <h2>I AM A<br>FULL STACK WEB DEVELOPER</h2>
+                    <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, alias recusandae unde as.</h1>
+                </div>
+            </section>
+            <div class="wrapper">
+            <section class="index-links">
+                <a href="portfolio.html">
+                    <div class="index-boxSquare">
+                        <h3>Portfolio</h3>
+                    </div>
+                </a>
+                <a href="about.html">
+                    <div class="index-boxRec">
+                        <h3>About Me</h3>
+                    </div>
+                </a>
+                <a href="contact.html">
+                    <div class="index-boxSquare">
+                        <h3>contact</h3>
+                    </div>
+                </a>
+                <a href="https://github.com/alexdavila39?tab=repositories">
+                    <div class="index-boxRec">
+                        <h3>GitHub</h3>
+                    </div>
+                </a>
+            </section>
+    </main>
+    <footer>
+        <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="about.html">About Me</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="social-media">
+            <a href="https://www.linkedin.com/in/alejandro-davila-212105125/">
+                <i class="fab fa-linkedin" alt="LinkedIn"></i>
+            </a>
+            <a href="https://github.com/alexdavila39?tab=repositories">
+                <i class="fab fa-github" alt="GitHub"></i>
+            </a>
+        </div>
+
+    </footer>
+
+
+
+
+
+
+
+
+
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <body>
+    <hearder class="head">
+
+        <div class="row">
+            <div class="top">
+                <ul>
+                    <li class="active"><a href="main.html">CodeDav</a></li>
+                </ul>
+            </div>
+            <ul class="main-nav">
+                <li class="active"><a href="">Home</a></li>
+                <li><a href="">about</a></li>
+                <li><a href="portfolio.html">My Work</a></li>
+                <li><a href="">contact</a></li>
+
             </ul>
         </div>
-    </nav>
 
-    <div id="main-container" >
-        <section class="main-section">
-          <h1>About Me</h1>
-    
-          <img src="assets/images/paris.jpeg" class="auth-image" alt="Alex">
-    
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vestibulum luctus felis, ac rhoncus nunc porttitor condimentum. Mauris sit amet dolor eu elit varius varius facilisis id arcu. Proin vel dui massa. Nunc rhoncus fringilla pharetra. Vestibulum bibendum consectetur euismod. Proin commodo purus vitae sollicitudin consectetur.</p>
-    
-          <p>Donec vehicula lacus at leo feugiat lacinia. In et ex ultrices, ultrices neque non, pretium odio. Nunc id eros iaculis, pulvinar quam eget, egestas mauris.</p>
-    
-          <p>Suspendisse dictum, arcu at convallis faucibus, quam sapien tincidunt nunc, sit amet egestas nibh tortor et mi. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-    
-        </section>
-    
-      </div>
-    
-      <footer>
-        <div class="container">
-          Copyright &copy; 
+        <div class="hero">
+            <h1>Hello World!</h1>
+            <h2>My name is Alejandro & I am a<br> Full Stack Web Developer</h2>
+            <div class="button">
+                <a href="" class="btn btn-one">About Me</a>
+                <a href="portfolio.html" class="btn btn-two">My Work</a>
+            </div>
+
         </div>
-      </footer>
+
+    </hearder>
+    <div class="container">
+        <div class="aboutMe">
+            <img src="">
+        </div>
+    </div>
 
 
 
-
-
-
-
-    <script type="text/javascript" src="js/materialize.min.js"></script>
-</body>
+</body> -->
 
 </html>
